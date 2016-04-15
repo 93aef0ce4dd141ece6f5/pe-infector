@@ -59,7 +59,6 @@ VOID Debug(LPCSTR fmt, ...) {
 }
 
 VOID CleanUp(HANDLE hFile, HANDLE hMapping, PUCHAR lpFile) {
-	
 	if (lpFile != NULL) UnmapViewOfFile(lpFile);
 	if (hMapping != NULL) CloseHandle(hMapping);
 	if (hFile != NULL) CloseHandle(hFile);
