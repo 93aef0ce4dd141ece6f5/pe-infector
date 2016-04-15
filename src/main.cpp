@@ -37,7 +37,7 @@ __declspec(naked) ShellcodeStart(VOID) {
 	}
 }
 
-VOID ShellcodeEnd() {
+VOID ShellcodeEnd(VOID) {
 
 }
 
